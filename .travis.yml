@@ -32,7 +32,7 @@ deploy:
   provider: elasticbeanstalk
   region: "ca-central-1"
   app: "multi-docker"
-  env: "MultiDocker-env"
+  env: "Multi-docker-env"
   bucket_name: "elasticbeanstalk-ca-central-1-337909763072"
   bucket_path: "docker-multi"
   on:
